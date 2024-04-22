@@ -1,0 +1,307 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.header-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: bisque;
+   gap: 10px;
+   padding: 10px;
+   font-style: oblique;
+   font-weight: 300;
+   font-size: large;
+}
+.header-2 {
+    
+   background-color: rgb(189, 187, 239);
+   color: black;
+   padding: 10px;
+}
+.proflowers-logo {
+    justify-content: center;
+    align-items: center;
+    max-width: 210px;
+}
+.gifts-form {
+    height: 45vh;
+    width: auto;
+    position: relative;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gift-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+  .gift-card {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .gift-card-title h1 {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .gift-card-title p {
+    font-size: 13px;
+  }
+  .gift-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+  }
+  #zip {
+    width: 150px;
+    height: 30px;
+  }
+  .gift-form #zip::placeholder {
+    font-size: 10px;
+  }
+  #delivery-date {
+    width: 150px;
+    height: 30px;
+    color: rgb(125, 131, 131);
+  }
+  .gift-btn {
+    position: relative;
+    width: 45%;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 5px;
+    left: 25%;
+    transform: translateX((-50%, -50%));
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    transition: all ease 0.5s;
+  }
+  .gift-btn:hover {
+    background-color: #bfe1a2;
+    color: #000;
+  }
+
+.mothers-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(255, 255, 255);
+   gap: 10px;
+   padding: 10px;
+}
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 70px;
+  }
+  .flo-sec-1{
+    padding: 10px 50px;
+  }
+  .card1 {
+    border: none;
+    padding: 10px;
+    border-radius:50px;
+    font-size: 18px;
+    font-weight: 350;
+    font-style:italic;
+    
+}
+.card1 img {
+    border-radius: 25px;
+}
+.card-text{
+    color: rgb(203, 52, 52);
+    font-weight: 500;
+    font-size:17px;
+   line-height: 15px;
+letter-spacing:0.1px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-text1{
+    color: rgb(160, 153, 153);
+    font-weight: 400;
+    font-size:17px;
+    margin-top: 5px;
+    line-height: 0px;
+letter-spacing:0.1px;
+text-decoration:line-through;
+}
+.card-text2{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.custom-btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: #c2f4ba; /* Change the background color */
+    color: rgb(0, 0, 0); /* Change the text color */
+    padding: 1rem 2rem; /* Adjust padding as needed */
+    border-radius: 2rem; /* Add border-radius for rounded corners */
+    border: rgb(243, 225, 225);/* Remove the border */
+    border-width: 20px;
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s, color 0.3s;
+}
+.custom-btn:hover {
+    background-color: #000000; 
+    color: white;/* Change background color on hover */
+}
+.img-container {
+    position: relative;
+    margin-top: 50px;
+    height: 60vh;
+    width: 100%;
+    background-image: url("https://images.ctfassets.net/ztm44xofsurz/2G11gZCNbUrYSNJlFRNmKN/9e7165dcbdd9aa9c327876e354c70d34/0369_PF_MDay24_Site_HP_Hero1.jpg?w=1920&fm=webp&q=70");
+    background-size: cover;
+  }
+  .img-container-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    left: 4%;
+    top: 35%;
+  }
+  .img-container-text h1 {
+    font-size: 50px;
+  }
+  .dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: 50px;
+    font-weight: 600;
+    font-style: normal;
+  }   
+  .img-container-text p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .img-container-text button {
+    background-color: #000;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1.2px solid #000;
+    border-radius: 25px;
+    transition: all ease 0.5s;
+  }
+  .img-container-text button:hover {
+    background-color: #bfe1a2;
+    color: #000;
+  }
+
+.img-container {
+    padding-top: 10vh;
+    width: 100%;
+    overflow: hidden;
+}
+.image-container img {
+    width: 100%;
+    display: block;
+}
+.two-image-card {
+    height: 65vh;
+    position: relative;
+    display: flex;
+  }
+  .image1,
+  .image2 {
+    flex: 1; /* Make both image containers grow equally to fill the parent container */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center;
+  }
+  .image1 {
+    position: relative;
+    background-image: url("https://images.ctfassets.net/ztm44xofsurz/5Z0KE2aJQSPdw5RGPYTYJM/971c608c2a87c74a21a097bb1336ddc8/0370_PF_Spring24_Site_AdminProfessionalsDay_HP_SplitBanner.jpg?w=1920&fm=webp&q=70");
+  }
+  .image2 {
+    position: relative;
+    background-image: url("https://images.ctfassets.net/ztm44xofsurz/5PzkooUr9n9ZgX2fFSrYSN/ad525c2a2fde342f155975d8372fbe89/0370_PF_Spring24_Site_Passover_HP_SplitBanner.jpg?w=1920&fm=webp&q=70");
+  }
+  .image1-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 45px;
+    left: 0%;
+  }
+  .image1-text h1 {
+    font-size: 50px;
+    font-weight: 300;
+
+  }
+  .image1-text p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .image1-text button {
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 15px;
+    border: 1px solid #000;
+    border-radius: 50px;
+  }
+  .image1-text button:hover {
+    background-color: #bfe1a2;
+    color: #000;
+  }
+  
+  .image2-text {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* margin-left: 45px; */
+    /* left: 0%; */
+  }
+  .image2-text h1 {
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .image2-text p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .image2-text button {
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 15px;
+    border: 1px solid #000;
+    border-radius: 50px;
+  }
+  .image2-text button:hover {
+    background-color: #bfe1a2;
+    color: #000;
+  }
